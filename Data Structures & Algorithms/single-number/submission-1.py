@@ -2,7 +2,7 @@ class Solution:
     def singleNumber(self, nums: List[int]) -> int:
         res=0
         for num in nums:
-            res = res ^ num
+            res = res ^ num    # using xor logic that cancels same numbers (ie., 2 XOR 2 = 0 ,then 0 XOR 1 = 1)
 
         return res
 
