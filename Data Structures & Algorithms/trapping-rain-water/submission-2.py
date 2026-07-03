@@ -37,3 +37,5 @@ height = [0,2,0,3,1,0,1,3,2,1]
 obj = Solution()
 soln = obj.trap(height)
 print(soln)
+
+# Visualization : https://www.hellointerview.com/learn/code/two-pointers/trapping-rain-water (scroll to last)
